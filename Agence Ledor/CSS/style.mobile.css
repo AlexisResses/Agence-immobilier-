@@ -1,0 +1,86 @@
+/* vp + header */
+
+header {
+  flex-direction: column;
+}
+
+header ul {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+header ul li {
+  padding: 1rem;
+  border-bottom: 1px dotted #ddd;
+}
+.vpcontent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.vpcontent p {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.vpcontent {
+  padding: 0rem 0.5rem;
+}
+.vp {
+  min-height: auto;
+  padding-top: 3.5rem;
+}
+
+/* offer */
+
+.offer-list {
+  flex-direction: column;
+}
+.offer {
+  padding: 4rem 1rem 4rem 1rem;
+  text-align: center;
+}
+
+/* who */
+
+.who {
+  flex-direction: column-reverse;
+}
+.who-content-img {
+  min-height: 300px;
+}
+.who-content-text {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+/* testimonials */
+
+.testimonials {
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.testimonials-elem {
+  flex-direction: column;
+  padding: 1rem;
+}
+.testimonials-elem-text {
+  text-align: center;
+}
+.testimonial-elem-profil img {
+  margin: 2rem auto;
+}
+/* Contact */
+
+.contact {
+  padding: 3rem 1rem 3rem 1rem;
+}
+.contact-form button {
+  margin: 2rem auto 0rem auto;
+  padding: 1rem 1rem;
+}
+
+/* footer */
+
+footer {
+  padding: 2rem 1rem 2rem 1rem;
+}
